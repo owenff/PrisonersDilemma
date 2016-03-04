@@ -16,6 +16,9 @@ class Player4:
         else:
             # use history, opponent_history, score, opponent_score
             # to compute your strategy
-            return 'b'
+            if len(opponent_history)==0:
+                return 'b'
+            else:
+                return 'b'
 
    
